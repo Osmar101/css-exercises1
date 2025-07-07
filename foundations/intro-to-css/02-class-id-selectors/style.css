@@ -7,3 +7,13 @@
     font-size: 2em;
 }
 
+#par1{
+    color: rgb(90, 32, 226);
+    font-size: 36px;
+}
+
+#par2{
+    background-color: rgb(113, 204, 166);
+    font-size: 24px;
+    font-weight: bold;
+}
