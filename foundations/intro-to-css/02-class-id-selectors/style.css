@@ -1,7 +1,9 @@
 .non {
     background-color: rgb(235, 23, 76);
+    font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
 .nonbigger {
     font-size: 2em;
 }
+
