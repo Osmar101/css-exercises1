@@ -56,3 +56,29 @@ body {
 .header-links li {
   list-style-type: none;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    height: 50px;
+    background-color: lightgray;
+}
+
+.randominformation{
+    height: 50px;
+    background-color: lightblue;
+}
+
+.quote{
+    height: 50px;
+    background-color: lightcoral;
+}
+
+.signup{
+    height: 50px;
+    background-color: lightgreen;
+}
+
