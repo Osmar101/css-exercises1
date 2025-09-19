@@ -19,7 +19,9 @@ body {
   align-items: center;
   padding-left: 1%;
 }
-
+.content {
+  display: flex;
+}
 .footer {
   height: 72px;
   background: #eee;
@@ -73,3 +75,4 @@ body {
   width: 200px;
 >>>>>>> 0d7a306 (created classes for content and containeforcards)
 }
+
