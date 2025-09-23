@@ -57,28 +57,27 @@ body {
   list-style-type: none;
 }
 
-.content{
-    display: flex;
-    flex-direction: column;
+.content {
+  display: flex;
+  flex-direction: column;
 }
 
-.main{
-    height: 50px;
-    background-color: lightgray;
+.main {
+  height: 50px;
+  background-color: lightgray;
 }
 
-.randominformation{
-    height: 50px;
-    background-color: lightblue;
+.randominformation {
+  height: 50px;
+  background-color: lightblue;
 }
 
-.quote{
-    height: 50px;
-    background-color: lightcoral;
+.quote {
+  height: 50px;
+  background-color: lightcoral;
 }
 
-.signup{
-    height: 50px;
-    background-color: lightgreen;
+.signup {
+  height: 50px;
+  background-color: lightgreen;
 }
-
