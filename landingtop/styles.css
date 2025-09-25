@@ -1,10 +1,11 @@
-/* * {
-  border: 2px solid red !important;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
 }
 
 .header {
@@ -146,18 +147,38 @@ body {
   min-width: 400px;
 }
 
-.randomblock {
-  width: 30px;
-  height: 30px;
-  background-color: lightblue;
-  border: red 2px solid;
-}
-
 .randominformationcontent {
   display: flex;
   justify-content: space-around;
-  border: red 2px solid;
   width: 100%;
   height: 70%;
   align-items: center;
+}
+
+.randominformationtitle {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.randomcontainers {
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+}
+.randomblock {
+  width: 150px;
+  height: 150px;
+  border: #2563eb 4px solid;
+  border-radius: 21px;
+}
+
+.randomtext {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  color: gray;
+  font-weight: 450;
 }
