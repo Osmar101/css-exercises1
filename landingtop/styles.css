@@ -153,11 +153,11 @@ body {
   border: red 2px solid;
 }
 
-.randominformationcontent { 
-display: flex;
-justify-content: space-around;
-border: red 2px solid;
-width: 100%;
-height: 70%;
-align-items: center;
+.randominformationcontent {
+  display: flex;
+  justify-content: space-around;
+  border: red 2px solid;
+  width: 100%;
+  height: 70%;
+  align-items: center;
 }
