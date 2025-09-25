@@ -12,7 +12,7 @@ body {
   height: 70px;
   display: flex;
   justify-content: space-evenly;
-  padding: 0 2vw 0 2vw;
+  padding: 0 7.5vw 0 7.5vw;
 }
 
 .header-logo {
@@ -63,29 +63,47 @@ body {
 }
 
 .main {
-  height: 60vh;
-  background-color: lightgray;
+  height: 40vh;
+  background-color: #1f2937;
   display: flex;
-  padding: 0 2vw 0 2vw;
+  padding: 7vh 7.5vw 7vh 7.5vw;
+  flex-wrap: wrap;
 }
 
 .maininfo {
   display: flex;
   flex-direction: column;
   width: 50%;
-  border: red 2px solid;
 }
 
 #maintitle {
-  font-size: 4em;
+  font-size: 4.9em;
   font-weight: bold;
   color: white;
   margin: 0;
 }
 
+#mainbutton {
+  width: 200px;
+  height: 50px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.mainp {
+  font-size: 1em;
+  color: white;
+  margin: 0 20px 0 20px 0;
+}
+
 .mainbanner {
   width: 50%;
-  border: red 2px solid;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,9 +111,13 @@ body {
 }
 
 .placeholder {
-  height: 60%;
+  height: 70%;
   width: 75%;
-  background-color: red;
+  background-color: gray;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .randominformation {
@@ -111,4 +133,10 @@ body {
 .signup {
   height: 50px;
   background-color: lightgreen;
+}
+
+.maininfo,
+.mainbanner {
+  flex: 1 1 400px;
+  min-width: 400px;
 }
