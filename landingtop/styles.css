@@ -176,20 +176,94 @@ body {
 }
 
 .quote {
-  height: 50px;
+  font-size: 36px;
   background-color: #e5e7eb;
-  height: 60vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-weight: 300;
+  font-style: italic;
 }
 
-#quote1 {
-  
+#quote2 {
+  font-weight: bolder;
+  color: 1f2937;
+  display: flex;
+  justify-self: self-end;
 }
 
 .signup {
-  height: 50px;
-  background-color: lightgreen;
+  height: 50vh;
+  margin: 1vh 0vh 1vh 0vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupcontainer {
+  display: flex;
+  align-items: center;
+  width: 110vh;
+  height: 30%;
+  padding-left: 10%;
+  background-color: #2563eb;
+  border-radius: 10px;
+}
+
+.signupcall {
+  display: flex;
+  width: 120vw;
+  flex-direction: column;
+  color: white;
+}
+
+#signuptext1 {
+  margin-bottom: 1px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-size: 2.6em;
+}
+
+#signuptext2 {
+  margin-top: 1px;
+}
+
+.signupbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  appearance: none;
+  outline: none;
+}
+
+.signupbutton button,
+.signupbutton button:hover,
+.signupbutton button:active {
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 5px;
+  color: white;
+  box-shadow: none;
+  appearance: none;
+  outline: none;
+  height: 8vh;
+  width: 60%;
+  font-size: 2em;
+  font-weight: 450;
+  padding: 3px;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
